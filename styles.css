@@ -5,5 +5,27 @@ h2 {
     padding: 5px;
     margin-top: 10px;
     margin-right: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+#roadmap:link, #roadmap:visited {
+    color: white;
+    background-color: #559aff;
+    text-decoration: none;
+    border: solid 2px #2373e6;
+}
+
+#roadmap:hover {
+    color: white;
+    background-color: #2a81ff;
+    text-decoration: none;
+}
+
+#roadmap {
+    padding: 10px 10px;
+    margin: 10px 10px 10px 0px;
+}
+
+hr {
+    margin: 20px 20px 20px 0px;
 }
