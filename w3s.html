@@ -3,6 +3,7 @@
     <head>
         <title>Learning HTML</title>
         <link rel="stylesheet" href="styles.css">
+        <script src="script.js"></script>
     </head>
 
     <body style="font-family: 'Verdana';">
@@ -48,6 +49,18 @@
             <i><p>Source: NY Times</p></i>
 
             <img src="assets/bingus.gif" alt="person squeezing Bingus the cat's head" style="height:220px; width:220px;">
+            <p>Bingus</p>
+            <br>
+
+            <img src="https://my.clevelandclinic.org/-/scassets/images/org/health/articles/organs.jpg" alt="human body" usemap="#organmap">
+            <p>Internal organs of the human body</p>
+
+            <map name="organmap">
+                <area shape="rect" coords="357,122,452,191" href="https://en.wikipedia.org/wiki/Human_brain" alt="human brain" target="_blank">
+                <area shape="poly" coords="322,425,334,321,405,324,486,319,498,429,412,363,401,405" href="https://en.wikipedia.org/wiki/Lung" alt="lung" target="_blank">
+                <area shape="circle" coords="423,389,19" href="https://en.wikipedia.org/wiki/Heart" alt="heart" target="_blank">
+                <area shape="rect" coords="299,841,517,433" alt="unimplemented" onclick="wipAlert()">
+            </map>
             <hr>
 
             <h2 id="toys">Toys</h2>
